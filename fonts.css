@@ -1,34 +1,18 @@
 @font-face {
-    font-family: 'Coolvetica';
-    src: url('./src/fonts/coolvetica/rg.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Coolvetica';
-    src: url('./src/fonts/coolvetica/coolvetica rg it.otf') format('opentype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Coolvetica';
-    src: url('./src/fonts/coolvetica/coolvetica condensed rg.otf') format('opentype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Coolvetica';
-    src: url('./src/fonts/coolvetica/coolvetica compressed hv.otf') format('opentype');
+    font-family: 'Cocogoose';
+    src: url('./src/fonts/cocogoose/Cocogoose-Pro-Bold-trial.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
-
 @font-face {
-    font-family: 'Coolvetica';
-    src: url('./src/fonts/coolvetica/coolvetica crammed rg.otf') format('opentype');
-    font-weight: bolder;
+    font-family: 'Roboto';
+    src: url('./src/fonts/roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('./src/fonts/roboto/Roboto-Light.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
 }
