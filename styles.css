@@ -35,7 +35,7 @@ h1{
 }
 h2{
     font-family: 'Cocogoose',sans-serif;
-    font-size: 72px;
+    font-size: 5.75rem;
     margin: 50px 0px 0px 0px;
 }
 #subtituloh1{
@@ -172,7 +172,7 @@ main{
 #exp{
     grid-area: exp;
 }
-.videocontainer{
+.divcentrado{
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -182,15 +182,20 @@ main{
     padding-top: 20px;
     background-color: #fff;
 }
-#educacion{
-    display: grid;
-    grid-template-areas: 
-    "edu edu edu"
-    "ed1 ed2 ed3";
+#educacion {
+    display: flex;
+    flex-direction: column;
     gap: 2em;
 }
-#edu{
-    grid-area: edu;
+
+#edu {
+    width: 100%; /* Para que ocupe todo el ancho disponible */
+    text-align: center; /* Opcional: centrar el contenido */
+}
+
+
+.ed1, .ed2, .ed3 {
+    flex: 1; /* Distribuir uniformemente cada columna */
 }
 #habilidades{
     display: grid;
